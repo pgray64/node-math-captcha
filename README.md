@@ -3,7 +3,7 @@ A math captcha for node
 
 ## Install
 - GraphicsMagicks (OS package) is needed
-- `npm install` 
+- `npm install node-math-captcha` 
 
 ## Usage
 
