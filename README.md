@@ -1,15 +1,21 @@
 # node-math-captcha
 A math captcha for node
 
+## Install
+- GraphicsMagicks (OS package) is needed
+- `npm install` 
+
 ## Usage
 
 `generate(bgFile, fontFile, outputDir, numOps, callback)`
 
-- bgFile - a relative path (from your server's entry point) with filename for desired background image
-- fontFile - a relative path (from your server's entry point) with filename for desired font
-- outputDir - a relative path (from your server's entry point)
+- bgFile - a relative path (from your app's point) with filename for desired background image
+- fontFile - a relative path (from your app's entry point) with filename for desired font
+- outputDir - a relative path (from your app's entry point)
 - numOps - number of operations in the captcha challenge
 - callback - is called as callback(err, imageName, answerStr)
+
+An easy method is to use express sessions to store the captcha answer. Have your frontend signup page request a captcha via a route that calls the generate function. Then your backend signup script can compare user input to the captcha answer stored in the express session.
 
 ## Sample Screenshot
 
