@@ -1,0 +1,25 @@
+{
+  "name": "node-math-captcha",
+  "version": "0.0.1",
+  "description": "A math captcha for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgray64/node-math-captcha.git"
+  },
+  "keywords": [
+    "captcha"
+  ],
+  "author": "Philippe Gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgray64/node-math-captcha/issues"
+  },
+  "homepage": "https://github.com/pgray64/node-math-captcha#readme",
+  "dependencies": {
+    "gm": "^1.22.0"
+  }
+}
