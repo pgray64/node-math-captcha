@@ -10,3 +10,7 @@ A math captcha for node
 - outputDir - a relative path (from your server's entry point)
 - numOps - number of operations in the captcha challenge
 - callback - is called as callback(err, imageName, answerStr)
+
+## Sample Screenshot
+
+[[https://github.com/pgray64/node-math-captcha/blob/master/sample/screenshot.png]]
