@@ -13,4 +13,4 @@ A math captcha for node
 
 ## Sample Screenshot
 
-[[https://github.com/pgray64/node-math-captcha/blob/master/sample/screenshot.png]]
+![Screenshot](https://github.com/pgray64/node-math-captcha/blob/master/sample/screenshot.png)
