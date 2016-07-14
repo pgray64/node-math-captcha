@@ -19,4 +19,4 @@ An easy method is to use express sessions to store the captcha answer. Have your
 
 ## Sample Screenshot
 
-![Screenshot](https://github.com/pgray64/node-math-captcha/blob/master/sample/screenshot.png)
+![Screenshot](https://github.com/pgray64/node-math-captcha/raw/master/sample/screenshot.png)
