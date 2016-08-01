@@ -9,9 +9,12 @@
 */
 var gm = require('gm');
 
-module.exports.generate = generate;
 
-function generate(req, bgFile, fontFile, fillColor, outputDir, numOps, callback) {
+exports.printMsg = function() {
+  console.log("This is a message from the demo package");
+};
+
+exports.generate = function generate(req, bgFile, fontFile, fillColor, outputDir, numOps, callback) {
 
 
   var answer = randomInt(0, 9);
@@ -49,6 +52,7 @@ function generate(req, bgFile, fontFile, fillColor, outputDir, numOps, callback)
   .pointSize(40)
   .rotate('#000000', randomInt(-5, 5))
   .drawText(50, 50, expressionStr)
+  .swirl(randomInt(-30,30))
   .rotate('#000000', randomInt(-5, 5))
   .write(imagePath, function (err) {
     if (err) {
@@ -58,7 +62,7 @@ function generate(req, bgFile, fontFile, fillColor, outputDir, numOps, callback)
 
   });
 
-}
+};
 
 var ops = ['+', '-', '*'];
 var nums = ['zero', 'one', 'two', 'three', 'four', 'five',
