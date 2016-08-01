@@ -1,6 +1,6 @@
 {
   "name": "node-math-captcha",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A math captcha for node",
   "main": "index.js",
   "scripts": {
